@@ -1,7 +1,7 @@
-public interface subjekt {
-    public void registriereBeobachter(beobachter b);
+public interface Subjekt {
+    public void registriereBeobachter(Beobachter b);
 
-    public void entferneBeobachter(beobachter b);
+    public void entferneBeobachter(Beobachter b);
 
     public void benachrichtigeBeobachter();
 }
